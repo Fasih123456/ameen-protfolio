@@ -41,6 +41,18 @@ Version: 1.0.0
 /* --------------------------------------------
     Template Default Fonts & Fonts Styles
  ---------------------------------------------- */
+.whiteforced{
+  color:white !important;
+}
+
+
+.logo{
+  max-width: 80%;
+  max-height: 80%;
+  filter: none !important;
+  transition: none !important;
+}
+
 body {
   font-family: "Kanit", sans-serif;
   font-size: 16px;
@@ -12371,10 +12383,12 @@ h5.preloader-text::after {
   line-height: 100px;
   transition: all 0.4s ease-in-out;
 }
+
 .brand-box img {
-  filter: grayscale(1) brightness(0) saturate(1000%) invert(53%);
-  transition: all 0.4s ease-in-out;
+filter: grayscale(1) brightness(0) saturate(1000%) invert(53%);
+transition: all 0.4s ease-in-out;
 }
+
 .brand-box:hover {
   background-color: var(--white);
 }
