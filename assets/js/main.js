@@ -1420,7 +1420,7 @@ ScrollTrigger.addEventListener("refresh", () => {
             const $el = $("#typing-text");
             if (!$el.length) return; // stop if element not exist
 
-            const words = ["Project Engineer", "Leadership & Team Coordination", "Attention to Detail", "Project Management"];
+            const words = ["Project Engineer", "Leadership", "Team Coordination", "Attention to Detail", "Project Management"];
             let index = 0;
             let letterIndex = 0;
             let isDeleting = false;
